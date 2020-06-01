@@ -5,3 +5,7 @@
 .quote {
     background-color: yellow;
 }
+
+.quote__author {
+    font-style: italic;
+}
