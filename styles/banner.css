@@ -10,3 +10,10 @@
     max-height: 10em;
     
 }
+
+.banner__title {
+    display: flex;
+    align-items: center;
+    font-family: fantasy;
+    font-size: x-large;
+}
