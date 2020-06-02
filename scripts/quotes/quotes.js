@@ -7,9 +7,12 @@ an HTML string that it will return to a variable "objectHTMLRepresentativ" */
 //by the contents insie {} and then returned to a variable that the parameter is defining,
 // both those also happen inside the {} 
 const quotesConverter = (quotesObject) => {
-    const quotesHTMLRepresentation = `<section class="quote">${quotesCollection.quote} 
-                                    <a class="quote__author">${quotesCollection.author}</a>
+    const quotesHTMLRepresentation = `<section class="quote">${quotesObject.quote} 
+                                    <a class="quote__author">${quotesObject.author}</a>
                                     </section>`
 
     return quotesHTMLRepresentation
 }
+
+// had an issue on this page where i had quotesconverter.quote and same for .author, and it was returning undefined for both keys i was trying to access.
+// this make sense because the string was attempting to access array data from quotesconverter, which was just defined?....
