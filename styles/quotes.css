@@ -1,7 +1,17 @@
 .quoteList {
     background-color: lightyellow;
+    display: flex;
+    flex-direction: row;
 }
 
 .quote {
-    background-color: yellow;
+    background-color: mediumturquoise;
+    border:1px solid darkturquoise;
+    border-radius: 2em;
+    padding: 1em;
+    margin: 0.5em;
+}
+
+.quote__author {
+    font-style: italic;
 }

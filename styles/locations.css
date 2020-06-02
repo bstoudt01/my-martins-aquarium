@@ -1,13 +1,22 @@
 .locationList {
-    background-color: mediumaquamarine;
+    background-color: lightyellow;
 }
 
 .location {
     background-color: mediumseagreen;
+    display: flex;
+    flex-direction: row;
+    border:1px solid seashell;
+    border-radius: 1em;
+    padding: 1em;
 }
 
 
 .location__picture {
     max-width: 15rem;
     max-height: 15rem;
+}
+
+.location__details {
+    padding: 0.5em;
 }

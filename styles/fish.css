@@ -1,13 +1,24 @@
 .fishList {
-    background-color: mediumorchid;
+    background-color: lightyellow;
+
 }
 
 .fish {
-    background-color: mediumvioletred;
+    background-color: lightseagreen;
+    display: flex;
+    flex-direction: row; 
+    justify-content: space-evenly;
+    border:1px solid seashell;
+    border-radius: 1em;
+    padding: 1em;
 }
 
 
 .fish__picture {
-    max-width: 15rem;
-    max-height: 15rem;
+    max-width: 20rem;
+    max-height: 20rem;
+}
+
+.fish ul {
+    font-family: fantasy; 
 }
