@@ -42,5 +42,41 @@ const fishCollection = [
         location: "The Purple Ocean Reef",
         food: "Highlighters",
         picture: "https://i.etsystatic.com/7622160/r/il/c0dd51/1276548045/il_570xN.1276548045_jemv.jpg"
+    },
+
+    {
+        species: "Swordfish",
+        length: 320,
+        location: "Atlantic Ocean",
+        picture: "https://cedepesca.net/wp-content/uploads/2019/03/prome-pez-espada-t-820x461.jpg",
+        food: "Herring",
+        name: "Chester"
+    },
+
+    {
+        species: "Angel Fish",
+        length: 8,
+        location: "Pacific Ocean",
+        picture: "https://www.aquariumofpacific.org/images/made/images/olc/king-angelfish_530_488_80auto_s.jpg",
+        food: "Plankton",
+        name: "Michael"
+    },
+
+    {
+        species: "Elegant Corydoras",
+        length: 3,
+        location: "Caribbean Sea",
+        food: "Algae",
+        name: "Sweet",
+        picture: "https://riverpark.biz/54/elegant-cory.jpg"
+    },
+    
+    {
+        species: "Orange Roughy",
+        length: 16,
+        location: "Southern Ocean",
+        picture: "https://www.oneworldoneocean.com/images/blog/3604698319_e32488227d_z.jpg",
+        food: "Anchovies",
+        name: "Michael"
     }
 ]

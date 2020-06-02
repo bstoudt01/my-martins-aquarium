@@ -1,23 +1,30 @@
-/**
- *  Fish which renders individual fish objects as HTML
- */
-const fishHTMLRepresentation = (fishObject) => {
-    return `
-        <div class="fish">
-            <div>
-                <img class="fish__image" src="${fishObject.image}" alt="">
-            </div>
-            <div class="fish__name">${fishObject.name}</div>
-            <button id="button--${fishObject.name}">Details</button>
+/*
+    This function will convert a single fish object to an
+    HTML representation and return it.. ITS A FISH CONVERTER!
+*/
+const fishConverter = (fishObject) => {
 
-            <dialog class="dialog--fish" id="details--${fishObject.name}">
-                <div>Species: ${fishObject.species}</div>
-                <div>Location: ${fishObject.location}</div>
-                <div>Length: ${fishObject.size}</div>
-                <div>Food: ${fishObject.food.join(",")}</div>
-
-                <button class="button--close">Close Dialog</button>
-            </dialog>
+    const fishHTMLRepresentation = `<section class="fish">
+        <div class="">
+            <img class="fish__picture" src="${fishObject.picture}"
+                alt="${fishObject.name} the ${fishObject.species}" />
         </div>
-    `
+        <div class="fish__details">
+            <ul>
+                <li>Species: ${fishObject.species}</li>
+                <li>Length: ${fishObject.length}</li>
+                <li>Name: ${fishObject.name}</li>
+                <li>Location: ${fishObject.location}</li>
+                <li>Food: ${fishObject.food}</li>
+            </ul>
+        </div>
+    </section>`
+
+    return fishHTMLRepresentation
+
 }
+//this function return value of "fishHTMLRepresentation" which is a string
+// reutning to the variable makes it easier to navigate and debugg in the future
+// you can return the 
+
+//
