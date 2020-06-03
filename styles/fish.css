@@ -1,27 +1,38 @@
 .fishList {
     background-color: lightyellow;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
 
 }
 
 .fish {
     background-color: lightseagreen;
-    display: flex;
-    flex-direction: row; 
     justify-content: space-evenly;
     border:1px outset seashell;
     border-radius: 1em;
     padding: 1em;
+    margin: 1em;
+    display: flex;
+    flex-direction: column;
+    max-width: 20rem;
+    min-width: auto;
+    justify-content: space-between;
+    flex-grow: 1;
 }
 
 
 .fish__picture {
     max-width: 20rem;
     max-height: 20rem;
-    filter: drop-shadow(18px 16px 4px red);
+    filter: drop-shadow(18px 16px 4px black);
+    overflow: hidden;
+    justify-self: auto;
 }
-.fish__picture:hover{
-    transform:scale(5) rotate(150);
-}
+
 .fish ul {
     font-family: fantasy; 
+}
+.fish__details {
+    display: flex;
 }

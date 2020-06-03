@@ -64,7 +64,7 @@ const fishCollection = [
 
     {
         species: "Elegant Corydoras",
-        length: 3,
+        length: 15,
         location: "Caribbean Sea",
         food: "Algae",
         name: "Sweet",
@@ -83,7 +83,7 @@ const fishCollection = [
 
 // 3, 6, 9, 12, etc... fish
 
-const mostHolyFish = (fishLength) => {
+const mostHolyFish = () => {
     const holyFish = []
 
     for (const fishLength of fishCollection) {
@@ -97,11 +97,11 @@ const mostHolyFish = (fishLength) => {
 }
 
 // 5, 10, 15, 20, 25, etc... fish
-const soldierFish = (fishLength) => {
+const soldierFish = () => {
     const soldiers = []
 
     for (const fishLength of fishCollection) {
-        if (fishLength.length % 5 === 0) {
+        if (fishLength.length % 5 === 0 && fishLength.length % 3 !== 0) {
             soldiers.push(fishLength)
             
         }
@@ -110,11 +110,11 @@ const soldierFish = (fishLength) => {
 }
 
 // Any fish not a multiple of 3 or 5
-const nonHolyFish = (fishLength) => {
+const nonHolyFish = () => {
     const regularFish = []
 
     for (const fishLength of fishCollection) {
-        if (fishLength.length % 3 != 0 && fishLength.length % 5 != 0) {
+        if (fishLength.length % 3 !== 0 && fishLength.length % 5 !== 0) {
             regularFish.push(fishLength)
             
         }
