@@ -8,7 +8,7 @@
     display: flex;
     flex-direction: row; 
     justify-content: space-evenly;
-    border:1px solid seashell;
+    border:1px outset seashell;
     border-radius: 1em;
     padding: 1em;
 }
@@ -17,8 +17,11 @@
 .fish__picture {
     max-width: 20rem;
     max-height: 20rem;
+    filter: drop-shadow(18px 16px 4px red);
 }
-
+.fish__picture:hover{
+    transform:scale(5) rotate(150);
+}
 .fish ul {
     font-family: fantasy; 
 }

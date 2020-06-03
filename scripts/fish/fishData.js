@@ -55,7 +55,7 @@ const fishCollection = [
 
     {
         species: "Angel Fish",
-        length: 8,
+        length: 10,
         location: "Pacific Ocean",
         picture: "https://www.aquariumofpacific.org/images/made/images/olc/king-angelfish_530_488_80auto_s.jpg",
         food: "Plankton",
@@ -79,4 +79,51 @@ const fishCollection = [
         food: "Anchovies",
         name: "Michael"
     }
-]
+];
+
+// 3, 6, 9, 12, etc... fish
+
+const mostHolyFish = (fishLength) => {
+    const holyFish = []
+
+    for (const fishLength of fishCollection) {
+        if (fishLength.length % 3 === 0) {
+            holyFish.push(fishLength)
+            
+        }
+    }
+    return holyFish
+
+}
+
+// 5, 10, 15, 20, 25, etc... fish
+const soldierFish = (fishLength) => {
+    const soldiers = []
+
+    for (const fishLength of fishCollection) {
+        if (fishLength.length % 5 === 0) {
+            soldiers.push(fishLength)
+            
+        }
+    }
+    return soldiers
+}
+
+// Any fish not a multiple of 3 or 5
+const nonHolyFish = (fishLength) => {
+    const regularFish = []
+
+    for (const fishLength of fishCollection) {
+        if (fishLength.length % 3 != 0 && fishLength.length % 5 != 0) {
+            regularFish.push(fishLength)
+            
+        }
+    }
+    return regularFish
+}
+const ab = mostHolyFish()
+const cd = soldierFish()
+const ef = nonHolyFish()
+console.log(ab)
+console.log(cd)
+console.log(ef)
