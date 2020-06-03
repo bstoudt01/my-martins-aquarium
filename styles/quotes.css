@@ -2,6 +2,8 @@
     background-color: lightyellow;
     display: flex;
     flex-direction: row;
+    border: 1px solid goldenrod;
+    border-radius: 2em;
 }
 
 .quote {
