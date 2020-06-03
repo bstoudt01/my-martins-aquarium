@@ -14,16 +14,18 @@ const fishList = () => {
         // Find the <article> element in index.html
         const fishArticleElement = document.querySelector(".fishList")
 
-        // Put the fish HTML representation inside the <article> element
+        // Put the fish HTML representation inside the <article> element.. apends string to the dom
         fishArticleElement.innerHTML += fishHTML
     }
 }
 */
 // Function to show holy fish in the browser
 const showHolyFish = () => {
+    //get holy fish array by calling the function that gathered the array and invoke the function with () to access the array inside of it.
     const fishObjectsArray = mostHolyFish()
-
+    // iterate the array of holy fish one at a time 
     for (const fishObject of fishObjectsArray) {
+        // pass the fishobject through the fishConverter as a paramater and save the iterations in a varable (const in this case)
         const fishHTMLRepresentation = fishConverter(fishObject)
         const fishArticleElement = document.querySelector(".fishList")
         fishArticleElement.innerHTML += fishHTMLRepresentation
@@ -55,7 +57,7 @@ const showRegularFish = () => {
 
 
 const fishList = () => {
-//     Invoke all three functions here/
+//     Invoke all three functions here/ the order they are listed are the order they appear.
     showHolyFish()
     showSoldierFish()
     showRegularFish()

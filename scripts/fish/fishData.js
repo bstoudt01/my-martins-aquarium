@@ -82,7 +82,7 @@ const fishCollection = [
 ];
 
 // 3, 6, 9, 12, etc... fish
-
+// when the return is saved as a variable, setting the variable equal to the "function()" name+invoke is the same
 const mostHolyFish = () => {
     const holyFish = []
 
