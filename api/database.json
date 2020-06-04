@@ -55,15 +55,6 @@
       "name": "Chester"
     },
     {
-      "id": 7,
-      "species": "Angel Fish",
-      "length": 10,
-      "location": "Pacific Ocean",
-      "picture": "https://www.aquariumofpacific.org/images/made/images/olc/king-angelfish_530_488_80auto_s.jpg",
-      "food": "Plankton",
-      "name": "Michael"
-    },
-    {
       "id": 8,
       "species": "Elegant Corydoras",
       "length": 15,
@@ -89,56 +80,76 @@
       "picture": "https://www.aboutanimals.com/images/needlefish-tylosurus-crocodilus-820x547.jpg?c14113",
       "food": "smaller fish",
       "name": "Nosey"
+    },
+    {
+      "species": "Angel Fish",
+      "length": 10,
+      "location": "Pacific Ocean",
+      "picture": "https://www.aquariumofpacific.org/images/made/images/olc/king-angelfish_530_488_80auto_s.jpg",
+      "food": "Plankton",
+      "name": "Michael",
+      "id": 11
     }
   ],
   "quotes": [
     {
       "quote": "Forage brooklyn prism shaman readymade hammock selvage hot chicken, mumblecore master cleanse post-ironic palo santo copper mug.",
-      "author": "Ron Burgandy"
+      "author": "Ron Burgandy",
+      "id": 1
     },
     {
       "quote": "Bango desert pupfish bullhead suckermouth armored catfish jewfish snake mackerel spiderfish spinefoot.",
-      "author": "John Maden"
+      "author": "John Maden",
+      "id": 2
     },
     {
       "quote": "Northern sea robin masu salmon oceanic whitetip shark; sandfish ray combtail gourami northern squawfish.",
-      "author": "NPH"
+      "author": "NPH",
+      "id": 3
     }
   ],
   "locations": [
     {
       "picture": "https://caribbeannewsservice.com/now/wp-content/uploads/2017/05/Caribbean-Sea.jpg",
       "location": "Carribean Sea",
-      "travelTip": "Dont go out at night!"
+      "travelTip": "Dont go out at night!",
+      "id": 1
     },
     {
       "picture": "https://images.unsplash.com/photo-1559128010-7c1ad6e1b6a5?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&w=1000&q=80",
       "location": "Thailand",
-      "travelTip": "Go South!"
+      "travelTip": "Go South!",
+      "id": 2
     },
     {
       "picture": "https://www.worldatlas.com/r/w1200-h701-c1200x701/upload/9c/99/76/shutterstock-428582293.jpg",
       "location": "Floating Island",
-      "traveltip": "Remember your viral shots"
+      "travelTip": "Remember your viral shots",
+      "id": 3
     },
     {
       "picture": "https://static.toiimg.com/photo/72179473.cms.cms",
       "location": "Vietnam",
-      "travelTip": "Eat Noodles & go to Ba Na Hills for sightseeing "
+      "travelTip": "Eat Noodles & go to Ba Na Hills for sightseeing ",
+      "id": 4
     }
   ],
   "tips": [
     {
-      "tip": "Poutine viral man braid farm-to-table chambray stumptown."
+      "tip": "Poutine viral man braid farm-to-table chambray stumptown.",
+      "id": 1
     },
     {
-      "tip": "River stingray river loach dorado cepalin cutthroat eel, cusk-eel sculpin driftfish escolar Old World rivuline plownose chimaera, pike conger."
+      "tip": "River stingray river loach dorado cepalin cutthroat eel, cusk-eel sculpin driftfish escolar Old World rivuline plownose chimaera, pike conger.",
+      "id": 2
     },
     {
-      "tip": "Marine hatchetfish horsefish brook lamprey white marlin."
+      "tip": "Marine hatchetfish horsefish brook lamprey white marlin.",
+      "id": 3
     },
     {
-      "tip": "Freshwater flyingfish porcupinefish anglerfish, freshwater flyingfish weever ladyfish spiny-back mola mola sunfish."
+      "tip": "Freshwater flyingfish porcupinefish anglerfish, freshwater flyingfish weever ladyfish spiny-back mola mola sunfish.",
+      "id": 4
     }
   ]
 }
