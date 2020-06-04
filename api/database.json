@@ -1,30 +1,30 @@
 {
     "fish": [
         {
-        "species": "Parrot Fish",
-        "length": 8,
-        "name": "Angus",
-        "location": "Sea of Google",
-        "food": "Popcorn",
-        "picture": "https://i.ytimg.com/vi/y6tdGVTgmm4/maxresdefault.jpg"
+            "species": "Parrot Fish",
+            "length": 8,
+            "name": "Angus",
+            "location": "Sea of Google",
+            "food": "Popcorn",
+            "picture": "https://i.ytimg.com/vi/y6tdGVTgmm4/maxresdefault.jpg"
         },
 
         { 
-        "species": "Mahi",
-        "length": 6,
-        "name": "Lunch",
-        "location": "The Ocean",
-        "food": "Lime",
-        "picture": "https://natashaskitchen.com/wp-content/uploads/2017/08/Easy-Fish-Tacos-with-the-Best-Fish-Taco-Sauce-4.jpg"
+            "species": "Mahi",
+            "length": 6,
+            "name": "Lunch",
+            "location": "The Ocean",
+            "food": "Lime",
+            "picture": "https://natashaskitchen.com/wp-content/uploads/2017/08/Easy-Fish-Tacos-with-the-Best-Fish-Taco-Sauce-4.jpg"
         },
 
         {
-        "species": "Spotted Eel",
-        "length": 7,
-        "name": "Spotted Grumpy Fish",
-        "location": "Gulf of Mexico",
-        "food": "Anything Puree'd",
-        "picture": "https://www.hakaimagazine.com/wp-content/uploads/trout-fish-feel.jpg"
+            "species": "Spotted Eel",
+            "length": 7,
+            "name": "Spotted Grumpy Fish",
+            "location": "Gulf of Mexico",
+            "food": "Anything Puree'd",
+            "picture": "https://www.hakaimagazine.com/wp-content/uploads/trout-fish-feel.jpg"
         },
 
         {
@@ -81,7 +81,65 @@
             "name": "Michael"
         }
     ],
-    "quotes": [],
-    "locations": [],
-    "tips": []
+    "quotes": 
+    [
+        {
+            "quote": "Forage brooklyn prism shaman readymade hammock selvage hot chicken, mumblecore master cleanse post-ironic palo santo copper mug.",
+            "author": "Ron Burgandy"
+        },
+    
+        {
+            "quote": "Bango desert pupfish bullhead suckermouth armored catfish jewfish snake mackerel spiderfish spinefoot.",
+            "author": "John Maden"
+        },
+        
+        {
+            "quote": "Northern sea robin masu salmon oceanic whitetip shark; sandfish ray combtail gourami northern squawfish.",
+            "author": "NPH"
+        }
+    ],
+    "locations": 
+    [    
+        {
+            "picture": "https://caribbeannewsservice.com/now/wp-content/uploads/2017/05/Caribbean-Sea.jpg",
+            "location": "Carribean Sea",
+            "travelTip": "Dont go out at night!"
+        },
+    
+        {
+            "picture": "https://images.unsplash.com/photo-1559128010-7c1ad6e1b6a5?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&w=1000&q=80",
+            "location": "Thailand",
+            "travelTip": "Go South!"
+        },
+
+        {
+            "picture": "https://www.worldatlas.com/r/w1200-h701-c1200x701/upload/9c/99/76/shutterstock-428582293.jpg",
+            "location": "Floating Island",
+            "traveltip": "Remember your viral shots"
+        },
+
+        {
+            "picture": "https://static.toiimg.com/photo/72179473.cms.cms",
+            "location": "Vietnam",
+            "travelTip": "Eat Noodles & go to Ba Na Hills for sightseeing "
+        }
+    ],
+    "tips": 
+    [
+        {
+            "tip": "Poutine viral man braid farm-to-table chambray stumptown."
+        },
+    
+        {
+            "tip": "River stingray river loach dorado cepalin cutthroat eel, cusk-eel sculpin driftfish escolar Old World rivuline plownose chimaera, pike conger."
+        },
+    
+        {
+            "tip": "Marine hatchetfish horsefish brook lamprey white marlin."
+        },
+    
+        {
+            "tip": "Freshwater flyingfish porcupinefish anglerfish, freshwater flyingfish weever ladyfish spiny-back mola mola sunfish."
+        }
+    ]
 }
