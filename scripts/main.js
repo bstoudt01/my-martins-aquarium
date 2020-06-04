@@ -1,10 +1,21 @@
 
 locationsList()
 quotesList()
-tipsList()
 
 getFishData().then(
 	() => {
 		fishList()
 	}
+)
+
+getTipsData().then(
+    () => {
+        tipsList()
+    }
+)
+
+getQuotesData().then(
+    () => {
+        quotesList()
+    }
 )
