@@ -1,145 +1,144 @@
 {
-    "fish": [
-        {
-            "species": "Parrot Fish",
-            "length": 8,
-            "name": "Angus",
-            "location": "Sea of Google",
-            "food": "Popcorn",
-            "picture": "https://i.ytimg.com/vi/y6tdGVTgmm4/maxresdefault.jpg"
-        },
-
-        { 
-            "species": "Mahi",
-            "length": 6,
-            "name": "Lunch",
-            "location": "The Ocean",
-            "food": "Lime",
-            "picture": "https://natashaskitchen.com/wp-content/uploads/2017/08/Easy-Fish-Tacos-with-the-Best-Fish-Taco-Sauce-4.jpg"
-        },
-
-        {
-            "species": "Spotted Eel",
-            "length": 7,
-            "name": "Spotted Grumpy Fish",
-            "location": "Gulf of Mexico",
-            "food": "Anything Puree'd",
-            "picture": "https://www.hakaimagazine.com/wp-content/uploads/trout-fish-feel.jpg"
-        },
-
-        {
-            "species": "Rainblow",
-            "length": 8,
-            "name": "Fish outta Wata",
-            "location": "Homedepot",
-            "food": "Old People",
-            "picture": "https://images.homedepot-static.com/productImages/36dc334f-0135-497d-9e79-7fdfd8811506/svn/multicolor-badash-crystal-sculptures-j527-64_600.jpg"
-        },
-
-        {
-            "species": "Triggerfish",
-            "length": 3,
-            "name": "NoSeaEm",
-            "location": "The Purple Ocean Reef",
-            "food": "Highlighters",
-            "picture": "https://i.etsystatic.com/7622160/r/il/c0dd51/1276548045/il_570xN.1276548045_jemv.jpg"
-        },
-
-        {
-            "species": "Swordfish",
-            "length": 320,
-            "location": "Atlantic Ocean",
-            "picture": "https://cedepesca.net/wp-content/uploads/2019/03/prome-pez-espada-t-820x461.jpg",
-            "food": "Herring",
-            "name": "Chester"
-        },
-
-        {
-            "species": "Angel Fish",
-            "length": 10,
-            "location": "Pacific Ocean",
-            "picture": "https://www.aquariumofpacific.org/images/made/images/olc/king-angelfish_530_488_80auto_s.jpg",
-            "food": "Plankton",
-            "name": "Michael"
-        },
-
-        {
-            "species": "Elegant Corydoras",
-            "length": 15,
-            "location": "Caribbean Sea",
-            "food": "Algae",
-            "name": "Sweet",
-            "picture": "https://riverpark.biz/54/elegant-cory.jpg"
-        },
-        
-        {
-            "species": "Orange Roughy",
-            "length": 16,
-            "location": "Southern Ocean",
-            "picture": "https://www.oneworldoneocean.com/images/blog/3604698319_e32488227d_z.jpg",
-            "food": "Anchovies",
-            "name": "Michael"
-        }
-    ],
-    "quotes": 
-    [
-        {
-            "quote": "Forage brooklyn prism shaman readymade hammock selvage hot chicken, mumblecore master cleanse post-ironic palo santo copper mug.",
-            "author": "Ron Burgandy"
-        },
-    
-        {
-            "quote": "Bango desert pupfish bullhead suckermouth armored catfish jewfish snake mackerel spiderfish spinefoot.",
-            "author": "John Maden"
-        },
-        
-        {
-            "quote": "Northern sea robin masu salmon oceanic whitetip shark; sandfish ray combtail gourami northern squawfish.",
-            "author": "NPH"
-        }
-    ],
-    "locations": 
-    [    
-        {
-            "picture": "https://caribbeannewsservice.com/now/wp-content/uploads/2017/05/Caribbean-Sea.jpg",
-            "location": "Carribean Sea",
-            "travelTip": "Dont go out at night!"
-        },
-    
-        {
-            "picture": "https://images.unsplash.com/photo-1559128010-7c1ad6e1b6a5?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&w=1000&q=80",
-            "location": "Thailand",
-            "travelTip": "Go South!"
-        },
-
-        {
-            "picture": "https://www.worldatlas.com/r/w1200-h701-c1200x701/upload/9c/99/76/shutterstock-428582293.jpg",
-            "location": "Floating Island",
-            "traveltip": "Remember your viral shots"
-        },
-
-        {
-            "picture": "https://static.toiimg.com/photo/72179473.cms.cms",
-            "location": "Vietnam",
-            "travelTip": "Eat Noodles & go to Ba Na Hills for sightseeing "
-        }
-    ],
-    "tips": 
-    [
-        {
-            "tip": "Poutine viral man braid farm-to-table chambray stumptown."
-        },
-    
-        {
-            "tip": "River stingray river loach dorado cepalin cutthroat eel, cusk-eel sculpin driftfish escolar Old World rivuline plownose chimaera, pike conger."
-        },
-    
-        {
-            "tip": "Marine hatchetfish horsefish brook lamprey white marlin."
-        },
-    
-        {
-            "tip": "Freshwater flyingfish porcupinefish anglerfish, freshwater flyingfish weever ladyfish spiny-back mola mola sunfish."
-        }
-    ]
+  "fish": [
+    {
+      "id": 1,
+      "species": "Parrot Fish",
+      "length": 8,
+      "name": "Angus",
+      "location": "Sea of Google",
+      "food": "Popcorn",
+      "picture": "https://i.ytimg.com/vi/y6tdGVTgmm4/maxresdefault.jpg"
+    },
+    {
+      "id": 2,
+      "species": "Mahi",
+      "length": 6,
+      "name": "Lunch",
+      "location": "The Ocean",
+      "food": "Lime",
+      "picture": "https://natashaskitchen.com/wp-content/uploads/2017/08/Easy-Fish-Tacos-with-the-Best-Fish-Taco-Sauce-4.jpg"
+    },
+    {
+      "id": 3,
+      "species": "Spotted Eel",
+      "length": 7,
+      "name": "Spotted Grumpy Fish",
+      "location": "Gulf of Mexico",
+      "food": "Anything Puree'd",
+      "picture": "https://www.hakaimagazine.com/wp-content/uploads/trout-fish-feel.jpg"
+    },
+    {
+      "id": 4,
+      "species": "Rainblow",
+      "length": 8,
+      "name": "Fish outta Wata",
+      "location": "Homedepot",
+      "food": "Old People",
+      "picture": "https://images.homedepot-static.com/productImages/36dc334f-0135-497d-9e79-7fdfd8811506/svn/multicolor-badash-crystal-sculptures-j527-64_600.jpg"
+    },
+    {
+      "id": 5,
+      "species": "Triggerfish",
+      "length": 3,
+      "name": "NoSeaEm",
+      "location": "The Purple Ocean Reef",
+      "food": "Highlighters",
+      "picture": "https://i.etsystatic.com/7622160/r/il/c0dd51/1276548045/il_570xN.1276548045_jemv.jpg"
+    },
+    {
+      "id": 6,
+      "species": "Swordfish",
+      "length": 320,
+      "location": "Atlantic Ocean",
+      "picture": "https://cedepesca.net/wp-content/uploads/2019/03/prome-pez-espada-t-820x461.jpg",
+      "food": "Herring",
+      "name": "Chester"
+    },
+    {
+      "id": 7,
+      "species": "Angel Fish",
+      "length": 10,
+      "location": "Pacific Ocean",
+      "picture": "https://www.aquariumofpacific.org/images/made/images/olc/king-angelfish_530_488_80auto_s.jpg",
+      "food": "Plankton",
+      "name": "Michael"
+    },
+    {
+      "id": 8,
+      "species": "Elegant Corydoras",
+      "length": 15,
+      "location": "Caribbean Sea",
+      "food": "Algae",
+      "name": "Sweet",
+      "picture": "https://riverpark.biz/54/elegant-cory.jpg"
+    },
+    {
+      "id": 9,
+      "species": "Orange Roughy",
+      "length": 16,
+      "location": "Southern Ocean",
+      "picture": "https://www.oneworldoneocean.com/images/blog/3604698319_e32488227d_z.jpg",
+      "food": "Anchovies",
+      "name": "Michael"
+    },
+    {
+      "id": 10,
+      "species": "Needlefish",
+      "length": 10,
+      "location": "Da Tropics",
+      "picture": "https://www.aboutanimals.com/images/needlefish-tylosurus-crocodilus-820x547.jpg?c14113",
+      "food": "smaller fish",
+      "name": "Nosey"
+    }
+  ],
+  "quotes": [
+    {
+      "quote": "Forage brooklyn prism shaman readymade hammock selvage hot chicken, mumblecore master cleanse post-ironic palo santo copper mug.",
+      "author": "Ron Burgandy"
+    },
+    {
+      "quote": "Bango desert pupfish bullhead suckermouth armored catfish jewfish snake mackerel spiderfish spinefoot.",
+      "author": "John Maden"
+    },
+    {
+      "quote": "Northern sea robin masu salmon oceanic whitetip shark; sandfish ray combtail gourami northern squawfish.",
+      "author": "NPH"
+    }
+  ],
+  "locations": [
+    {
+      "picture": "https://caribbeannewsservice.com/now/wp-content/uploads/2017/05/Caribbean-Sea.jpg",
+      "location": "Carribean Sea",
+      "travelTip": "Dont go out at night!"
+    },
+    {
+      "picture": "https://images.unsplash.com/photo-1559128010-7c1ad6e1b6a5?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&w=1000&q=80",
+      "location": "Thailand",
+      "travelTip": "Go South!"
+    },
+    {
+      "picture": "https://www.worldatlas.com/r/w1200-h701-c1200x701/upload/9c/99/76/shutterstock-428582293.jpg",
+      "location": "Floating Island",
+      "traveltip": "Remember your viral shots"
+    },
+    {
+      "picture": "https://static.toiimg.com/photo/72179473.cms.cms",
+      "location": "Vietnam",
+      "travelTip": "Eat Noodles & go to Ba Na Hills for sightseeing "
+    }
+  ],
+  "tips": [
+    {
+      "tip": "Poutine viral man braid farm-to-table chambray stumptown."
+    },
+    {
+      "tip": "River stingray river loach dorado cepalin cutthroat eel, cusk-eel sculpin driftfish escolar Old World rivuline plownose chimaera, pike conger."
+    },
+    {
+      "tip": "Marine hatchetfish horsefish brook lamprey white marlin."
+    },
+    {
+      "tip": "Freshwater flyingfish porcupinefish anglerfish, freshwater flyingfish weever ladyfish spiny-back mola mola sunfish."
+    }
+  ]
 }
