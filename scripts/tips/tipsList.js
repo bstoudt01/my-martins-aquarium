@@ -1,3 +1,15 @@
+const tipVisibilityButton = document.querySelector(".toggleTips")
+
+tipVisibilityButton.addEventListener("click", (clickEvent) => {
+
+
+    document.querySelector(".tipsList").classList.toggle("hidden")
+})
+
+
+//toggle can be applied to any html element, it adds hidden to tipsList Class which will hide that class..
+
+
 /*tipsList.js has a dependency on tipsData.js & tips.js 
 MODULARIZE YOUR CODE! GOTTA KEEP IT SEPERATED 
 This is my list creater "Compiler" Module */
