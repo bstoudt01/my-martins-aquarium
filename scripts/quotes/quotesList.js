@@ -13,3 +13,12 @@ const quotesList = () => {
 
     }
 }
+
+//responsible for listening to a click on button (located below the nav bar) to toggle quotes class
+const quotesVisibilityButton = document.querySelector(".toggleQuotes")
+
+quotesVisibilityButton.addEventListener("click", (clickEvent) => {
+
+
+    document.querySelector(".quotesList").classList.toggle("hidden")
+})

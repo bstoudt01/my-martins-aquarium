@@ -1,4 +1,6 @@
 
+
+//dropdown box code for fish filter
 const fishTypeDropdown = document.querySelector(".typeChoice")
 const contentTarget = document.querySelector(".fishList")
 
@@ -9,12 +11,31 @@ fishTypeDropdown.addEventListener("change", (changeEvent) => {
     const userChoice = changeEvent.target.value
 
     // If the user chose Holy, clear the list and only show holy fish
+    if (userChoice === "all") {
+        fishList()
+    }
     if (userChoice === "holy") {
         clearFishList()
         showHolyFish()
     }
+    if (userChoice === "soldier") {
+        clearFishList()
+        showSoldierFish()
+    }
+    if (userChoice === "nonHoly") {
+        clearFishList()
+        showRegularFish()
+    }
 })
 
+//toggle button to hide the class (containing the data)
+const fishVisibilityButton = document.querySelector(".toggleFish")
+
+fishVisibilityButton.addEventListener("click", (clickEvent) => {
+
+
+    document.querySelector(".fishList").classList.toggle("hidden")
+})
 
 /*
 Responsible for generating a list of fish HTML
@@ -79,3 +100,4 @@ const fishList = () => {
     showSoldierFish()
     showRegularFish()
 }
+
